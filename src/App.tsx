@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import Lenis from 'lenis'
+import Nav from './components/Nav'
 import Hero from './components/Hero'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -14,7 +15,7 @@ export default function App() {
   }, [])
   return (
     <main className="grain">
-      <Hero /><About /><Projects /><Skills /><Contact />
+      <Nav /><Hero /><About /><Projects /><Skills /><Contact />
     </main>
   )
 }
